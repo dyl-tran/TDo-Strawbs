@@ -655,10 +655,6 @@ video {
   display: none;
 }
 
-.h-20{
-  height: 5rem;
-}
-
 .h-8{
   height: 2rem;
 }
@@ -1007,11 +1003,6 @@ video {
 
 .open .hamburger-bot {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
-}
-
-.swiper {
-  width: 125%;
-  height: 125%;
 }
 
 .swiper-slide {

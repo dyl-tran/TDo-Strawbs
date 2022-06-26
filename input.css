@@ -51,11 +51,6 @@
     transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
- .swiper {
-     width: 125%;
-     height: 125%;
- }
-
  .swiper-slide {
     /* Center slide text vertically */
     display: -webkit-box;

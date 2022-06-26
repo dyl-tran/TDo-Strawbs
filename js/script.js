@@ -15,6 +15,15 @@ var swiper = new Swiper('.swiper', {
                 freeMode: true,
                 pagination: {
                     el: '.swiper-pagination',
-                    clickable: true,
+                    clickable: false,
+                },
+            });
+var mobile = new Swiper('.mobile', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                freeMode: true,
+                pagination: {
+                    el: '.mobile-pagination',
+                    clickable: false,
                 },
             });
