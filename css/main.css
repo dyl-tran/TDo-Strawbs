@@ -663,14 +663,6 @@ video {
   height: 2rem;
 }
 
-.h-28{
-  height: 7rem;
-}
-
-.h-72{
-  height: 18rem;
-}
-
 .w-20{
   width: 5rem;
 }
@@ -810,11 +802,6 @@ video {
   background-color: rgb(244 114 182 / var(--tw-bg-opacity));
 }
 
-.bg-pink-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
-}
-
 .bg-pink-200{
   --tw-bg-opacity: 1;
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
@@ -823,6 +810,11 @@ video {
 .bg-rose-200{
   --tw-bg-opacity: 1;
   background-color: rgb(254 205 211 / var(--tw-bg-opacity));
+}
+
+.bg-pink-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
 }
 
 .bg-rose-400{
@@ -917,18 +909,22 @@ video {
   line-height: 1.5rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.leading-normal{
+  line-height: 1.5;
 }
 
 .leading-relaxed{
@@ -937,18 +933,6 @@ video {
 
 .leading-tight{
   line-height: 1.25;
-}
-
-.leading-loose{
-  line-height: 2;
-}
-
-.leading-10{
-  line-height: 2.5rem;
-}
-
-.leading-normal{
-  line-height: 1.5;
 }
 
 .text-white{
@@ -1025,6 +1009,18 @@ video {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
+.swiper {
+  width: 125%;
+  height: 125%;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hover\:bg-pink-300:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(249 168 212 / var(--tw-bg-opacity));
@@ -1080,10 +1076,6 @@ video {
     width: 25%;
   }
 
-  .md\:w-1\/3{
-    width: 33.333333%;
-  }
-
   .md\:max-w-xl{
     max-width: 36rem;
   }
@@ -1130,6 +1122,10 @@ video {
     padding-bottom: 3rem;
   }
 
+  .md\:pl-24{
+    padding-left: 6rem;
+  }
+
   .md\:text-left{
     text-align: left;
   }
@@ -1144,15 +1140,9 @@ video {
     line-height: 2.5rem;
   }
 
-  .md\:leading-loose{
-    line-height: 2;
-  }
-
-  .md\:leading-relaxed{
-    line-height: 1.625;
-  }
-
   .md\:leading-normal{
     line-height: 1.5;
   }
 }
+
+

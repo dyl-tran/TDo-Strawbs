@@ -7,6 +7,8 @@
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <title>T-Strawbs</title>
 </head>
 <body class="bg-pink-100">
@@ -40,11 +42,11 @@
      <!-- Mobile Menu -->
      <div class="md:hidden">
         <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-pink-100 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-            <a href="#" class="font-hero">Home</a>
-            <a href="#" class="font-hero">About</a>
-            <a href="#" class="font-hero">Shop</a>
-            <a href="#" class="font-hero">Reviews</a>
-            <a href="#" class="font-hero">Contact Us</a>
+            <a href="#home" class="font-hero">Home</a>
+            <a href="#features" class="font-hero">About</a>
+            <a href="#shop" class="font-hero">Shop</a>
+            <a href="#testimonials" class="font-hero">Reviews</a>
+            <a href="#contact" class="font-hero">Contact Us</a>
         </div>
      </div>
    </nav>
@@ -68,7 +70,7 @@
         </div>
         <!-- Image -->
         <div class="md:w-1/2">
-            <img src="images/chocolate-strawberry.gif" alt="chocolate-strawberry.gif">
+            <img src="images/chocolate-strawberry.gif" class="mb-32 flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200" alt="chocolate-strawberry.gif">
         </div>
     </div>
    </section>
@@ -76,9 +78,9 @@
    <!-- About Section -->
    <section id="features">
     <!-- Flex container  -->
-    <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+    <div class="container flex flex-col px-4 mx-auto space-y-12 md:space-y-0 md:flex-row">
         <!-- What's Different -->
-        <div class="flex flex-col space-y-12 md:w-1/2">
+        <div class="flex flex-col space-y-12 md:w-1/2 items-center p-6 rounded-lg bg-rose-200">
             <h2 class="max-w-md text-5xl font-bold leading-relaxed font-title text-center md:text-left">
                 What's different about T-Strawbs?
             </h2>
@@ -87,7 +89,7 @@
             </p>
         </div>
         <!-- Numbered List -->
-        <div class="flex flex-col space-y-8 md:w-1/2">
+        <div class="flex flex-col md:pl-24 space-y-8 md:w-1/2">
             <!-- List Item 1 -->
             <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
                 <!-- Heading -->
@@ -173,61 +175,24 @@
     <!-- Flex Container -->
     <div class="max-w-6xl mx-auto px-5 mt-32 text-center">
         <h1 class="text-5xl font-bold text-center font-title">Shop our strawberries</h1>
-        <!-- Shopping Container Row 1 -->
-        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
-            <!-- Set 1 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset1.jpg" class="mt-5 h-72" alt="strawberryset1.jpg">
-            </div>
 
-            <!-- Set 2 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset2.jpg" class="mt-5" alt="strawberryset1.jpg">
+        <!-- Carousel -->
+        <div class="swiper flex flex-col mt-24 md:flex-row md:space-x-6 text-center">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/strawberryset1.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200" alt="strawberryset1.jpg"></div>
+                <div class="swiper-slide"><img src="images/strawberryset2.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-rose-200" alt="strawberryset2.jpg"></div>
+                <div class="swiper-slide"><img src="images/strawberryset3.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200" alt="strawberryset3.jpg"></div>
+                <div class="swiper-slide"><img src="images/strawberryset4.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-rose-200" alt="strawberryset4.jpg"></div>
+                <div class="swiper-slide"><img src="images/strawberryset5.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200" alt="strawberryset5.jpg"></div>
+                <div class="swiper-slide"><img src="images/strawberryset6.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-rose-200" alt="strawberryset6.jpg"></div>
+                <div class="swiper-slide"><img src="images/strawberryset7.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200" alt="strawberryset7.jpg"></div>
+                <div class="swiper-slide"><img src="images/strawberryset8.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-rose-200" alt="strawberryset8.jpg"></div>
+                <div class="swiper-slide"><img src="images/strawberryset9.jpg" class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200" alt="strawberryset9.jpg"></div>
             </div>
-
-            <!-- Set 3 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset3.jpg" class="mt-5" alt="strawberryset1.jpg">
-            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
-        <!-- Shopping Container Row 3 -->
-        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
-            <!-- Set 1 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset4.jpg" class="mt-5" alt="strawberryset1.jpg">
-            </div>
-        
-            <!-- Set 2 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset5.jpg" class="mt-5" alt="strawberryset1.jpg">
-            </div>
-        
-            <!-- Set 3 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset6.jpg" class="mt-5" alt="strawberryset1.jpg">
-            </div>
-        </div>
-
-        <!-- Shopping Container Row 3 -->
-        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
-            <!-- Set 1 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset7.jpg" class="mt-5" alt="strawberryset1.jpg">
-            </div>
-        
-            <!-- Set 2 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset8.jpg" class="mt-5" alt="strawberryset1.jpg">
-            </div>
-        
-            <!-- Set 3 -->
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
-                <img src="images/strawberryset9.jpg" class="mt-5" alt="strawberryset1.jpg">
-            </div>
-        </div>
-    </div>
-   
-    
+  
    </section>
 
 
@@ -372,7 +337,8 @@
         
     </div>
    </footer>
-
-   <script src="js/script.js"></script>
+    <!-- Scripts -->
+    
+    <script src="js/script.js"></script>
  </body>
 </html>

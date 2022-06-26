@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Dylan-N-Tran/T-Strawbs#readme",
   "devDependencies": {
     "tailwindcss": "^3.1.4"
+  },
+  "dependencies": {
+    "swiper": "^8.2.4"
   }
 }
