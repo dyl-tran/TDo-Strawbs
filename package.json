@@ -1,0 +1,24 @@
+{
+  "name": "t-strawbs",
+  "version": "1.0.0",
+  "description": "A landing page for a custom strawberry commerce website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylan-N-Tran/T-Strawbs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylan-N-Tran/T-Strawbs/issues"
+  },
+  "homepage": "https://github.com/Dylan-N-Tran/T-Strawbs#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}

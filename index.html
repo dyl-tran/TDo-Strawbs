@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <title>T-Strawbs</title>
+</head>
+<body class="bg-pink-100">
+    <!-- Navbar -->
+    <nav id="home" class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+         <div class="pt-2">
+           <img src="images/logo2.png" alt="logo.png">
+         </div>
+         <!-- Menu Items -->
+         <div class="hidden md:flex space-x-6">
+            <a href="#home" class="hover:text-pink-300 font-hero">Home</a>
+            <a href="#features" class="hover:text-pink-300 font-hero">About</a>
+            <a href="#shop" class="hover:text-pink-300 font-hero">Shop</a>
+            <a href="#testimonials" class="hover:text-pink-300 font-hero">Reviews</a>
+            <a href="#contact" class="hover:text-pink-300 font-hero">Contact Us</a>
+         </div>
+         <!-- Button -->
+         <a href="#" class="hidden font-hero md:block p-3 px-6 pt-2 text-white bg-pink-400 rounded-full baseline hover:bg-pink-300">Get Started</a>
+
+         <!-- Hamburger Icon -->
+         <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-mid"></span>
+            <span class="hamburger-bot"></span>
+         </button>
+     </div>
+
+     <!-- Mobile Menu -->
+     <div class="md:hidden">
+        <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-pink-100 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <a href="#" class="font-hero">Home</a>
+            <a href="#" class="font-hero">About</a>
+            <a href="#" class="font-hero">Shop</a>
+            <a href="#" class="font-hero">Reviews</a>
+            <a href="#" class="font-hero">Contact Us</a>
+        </div>
+     </div>
+   </nav>
+
+   <!-- Hero Section -->
+   <section id="hero">
+    <!-- Flex Container -->
+    <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+        <!-- Left Item -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+            <h1 class="font-hero leading-normal md:leading-normal max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                Beautiful, hand-crafted, premium chocolate-covered strawberries for every occasion
+            </h1>
+            <p class="font-body leading-relaxed max-w-sm text-center text-pink-400 md:text-left">
+                Looking for a unique gift for a special someone? We have the sweetest gift for you.
+            </p>
+            <div class="flex justify-center md:justify-start">
+                <a href="#" class="p-3 px-6 pt-2 text-white font-hero bg-pink-400 rounded-full baseline hover:bg-pink-300">Get
+                    Started</a>
+            </div>
+        </div>
+        <!-- Image -->
+        <div class="md:w-1/2">
+            <img src="images/chocolate-strawberry.gif" alt="chocolate-strawberry.gif">
+        </div>
+    </div>
+   </section>
+
+   <!-- About Section -->
+   <section id="features">
+    <!-- Flex container  -->
+    <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+        <!-- What's Different -->
+        <div class="flex flex-col space-y-12 md:w-1/2">
+            <h2 class="max-w-md text-5xl font-bold leading-relaxed font-title text-center md:text-left">
+                What's different about T-Strawbs?
+            </h2>
+            <p class="max-w-md font-body text-center text-pink-400 md:text-left">
+                T-Strawbs are hand-crafted, premium chocolate-covered strawberries that are customed designed to fit any occasion. Our expert designers will create a unique gift for you based on your wants.
+            </p>
+        </div>
+        <!-- Numbered List -->
+        <div class="flex flex-col space-y-8 md:w-1/2">
+            <!-- List Item 1 -->
+            <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                <!-- Heading -->
+                <div class="rounded-l-full bg-pink-300 md:bg-transparent">
+                    <div class="flex items-center space-x-2">
+                        <div class="px-4 py-2 text-white rounded-full md:py-1 bg-pink-400">
+                            1
+                        </div>
+                        <h3 class="font-hero text-base font-bold md:mb-4 md:hidden">
+                            Premium imported belgium chocolate
+                        </h3>
+                        
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-hero hidden mb-4 text-xl font-bold md:block">
+                        Premium imported belgium chocolate
+                    </h3>
+                    <p class="text-pink-400 text-lg font-paragraph">
+                        The finest of chocolate, imported directly from Belgium, is dipped beautifully to create the best tasting chocolate
+                        strawberries possible. 
+                    </p>
+                </div>
+            </div>
+
+            <!-- List Item 2 -->
+            <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                <!-- Heading -->
+                <div class="rounded-l-full bg-pink-300 md:bg-transparent">
+                    <div class="flex items-center space-x-2">
+                        <div class="px-4 py-2 text-white rounded-full md:py-1 bg-pink-400">
+                            2
+                        </div>
+                        <h3 class="text-base font-hero font-bold md:mb-4 md:hidden">
+                            Beautifully hand-crafted elegant designs
+                        </h3>
+            
+                    </div>
+                </div>
+            
+                <div>
+                    <h3 class="hidden font-hero mb-4 text-xl font-bold md:block">
+                        Beautifully hand-crafted elegant designs
+                    </h3>
+                    <p class="text-pink-400 text-lg font-paragraph">
+                        Each design is carefully hand-crafted by our expert designers. We make sure that each design is unique and beautiful.
+                    </p>
+                </div>
+            </div>
+
+            <!-- List Item 3 -->
+            <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                <!-- Heading -->
+                <div class="rounded-l-full bg-pink-300 md:bg-transparent">
+                    <div class="flex items-center space-x-2">
+                        <div class="px-4 py-2 text-white rounded-full md:py-1 bg-pink-400">
+                            3
+                        </div>
+                        <h3 class="text-base font-hero font-bold md:mb-4 md:hidden">
+                            The most perfect gift for any occasion
+                        </h3>
+            
+                    </div>
+                </div>
+            
+                <div>
+                    <h3 class="hidden font-hero mb-4 text-xl font-bold md:block">
+                        The most perfect gift for any occasion
+                    </h3>
+                    <p class="text-pink-400 text-lg font-paragraph">
+                        Have a special occassion coming up? Our hand-crafted strawberries are the perfect give for any occassion. Curated and made with love.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   </section>
+
+   <!-- Shop Section -->
+   <section id="shop">
+    <!-- Flex Container -->
+    <div class="max-w-6xl mx-auto px-5 mt-32 text-center">
+        <h1 class="text-5xl font-bold text-center font-title">Shop our strawberries</h1>
+        <!-- Shopping Container Row 1 -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+            <!-- Set 1 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset1.jpg" class="mt-5 h-72" alt="strawberryset1.jpg">
+            </div>
+
+            <!-- Set 2 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset2.jpg" class="mt-5" alt="strawberryset1.jpg">
+            </div>
+
+            <!-- Set 3 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset3.jpg" class="mt-5" alt="strawberryset1.jpg">
+            </div>
+        </div>
+        <!-- Shopping Container Row 3 -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+            <!-- Set 1 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset4.jpg" class="mt-5" alt="strawberryset1.jpg">
+            </div>
+        
+            <!-- Set 2 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset5.jpg" class="mt-5" alt="strawberryset1.jpg">
+            </div>
+        
+            <!-- Set 3 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset6.jpg" class="mt-5" alt="strawberryset1.jpg">
+            </div>
+        </div>
+
+        <!-- Shopping Container Row 3 -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+            <!-- Set 1 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset7.jpg" class="mt-5" alt="strawberryset1.jpg">
+            </div>
+        
+            <!-- Set 2 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset8.jpg" class="mt-5" alt="strawberryset1.jpg">
+            </div>
+        
+            <!-- Set 3 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/3">
+                <img src="images/strawberryset9.jpg" class="mt-5" alt="strawberryset1.jpg">
+            </div>
+        </div>
+    </div>
+   
+    
+   </section>
+
+
+   <!-- Testimonials -->
+   <section id="testimonials">
+    <!-- Container to heading and testimonial blocks -->
+    <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+        <!-- Heading -->
+        <h2 class="text-5xl font-title font-bold text-center">
+            What our customers are saying
+        </h2>
+        <!-- Testimonials Container -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+            <!-- Testimonial 1 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/4">
+                <img src="images/dylan.jpg" class="rounded-full w-20 mt-5" alt="dylan-testimonial.jpg">
+                <h5 class="text-xl font-bold font-body">Dylan</h5>
+                <p class="text-md font-body text-pink-400">
+                    T-Strawbs are the best custom designed, chocolate strawberries I ever had. They are so unique, beautiful, and delicious!
+                </p>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-rose-200 md:w-1/4">
+                <img src="images/leo.jpg" class="rounded-full w-20 mt-5" alt="leo-testimonial.jpg">
+                <h5 class="text-xl font-bold font-body">Leo</h5>
+                <p class="text-md font-body text-pink-400">
+                    I'm a big hunky mans and my go to dessert is T-Strawbs! They never disappoint. Meow.
+                </p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-pink-200 md:w-1/4">
+                <img src="images/miso.png" class="rounded-full w-20 mt-5" alt="miso-testimonial.png">
+                <h5 class="text-xl font-bold font-body">Miso</h5>
+                <p class="text-md font-body text-pink-400">
+                    I love T-Strawbs! They are yummy and fun to eat. Meow.
+                </p>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-rose-200 md:w-1/4">
+                <img src="images/jiji.jpg" class="rounded-full w-16 mt-5" alt="jiji-testimonial.jpg">
+                <h5 class="text-xl font-bold font-body">Jiji</h5>
+                <p class="text-md font-body text-pink-400">
+                    T-Strawbs are my favorites! I ordered these for all my friends and they love it! Meow.
+                </p>
+            </div>
+        </div>
+        <!-- Button -->
+        <div class="my-16">
+            <a href="#" class="font-hero p-3 px-6 pt-2 text-white bg-pink-400 rounded-full baseline hover:bg-pink-300">Get
+                Started</a>
+        </div>
+    </div>
+   </section>
+   <!-- CTA Section -->
+   <section id="cta" class="bg-rose-200">
+    <!-- Flex Container -->
+    <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+        <!-- Heading -->
+        <h2 class="text-black text-5xl font-bold font-body leading-tight text-center md:text-4xl md:max-w-xl md:text-left">
+            Custom design your strawberries today!
+        </h2>
+        <!-- Button -->
+        <div class="my-16">
+            <a href="#" class="font-hero p-3 px-6 pt-2 text-white bg-pink-400 rounded-full baseline hover:bg-pink-300 shadow-2xl">Get
+                Started</a>
+        </div>
+    </div>
+   </section>
+
+   <!-- Footer -->
+   <footer id="contact" class="bg-rose-400">
+    <!-- Flex Container -->
+    <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+        <!-- Logo and Social Links Container -->
+        <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+                Copyright &copy; 2022. All Rights Reserved
+            </div>
+            <!-- Logo -->
+            <div>
+                <img src="images/logo2.png" class="h-20" alt="logo.png">
+            </div>
+                <!-- Social Links Container -->
+                <div class="flex justify-around space-x-4">
+                    <!-- Link 1 -->
+                    <a href="#">
+                        <img src="images/facebook.png" alt="facebook.png" class="h-8">
+                    </a>
+                    
+                    <!-- Link 2 -->
+                    <a href="#">
+                        <img src="images/youtube.png" alt="youtube.png" class="h-8">
+                    </a>
+
+                    <!-- Link 3 -->
+                    <a href="#">
+                        <img src="images/twitter-sign.png" alt="twitter.png" class="h-8">
+                    </a>
+                    <!-- Link 4 -->
+                    <a href="#">
+                        <img src="images/pinterest-circular-logo-symbol.png" alt="pinterest.png" class="h-8">
+                    </a>
+                    <!-- Link 5 -->
+                    <a href="#">
+                        <img src="images/instagram.png" alt="instagram.png" class="h-8">
+                    </a>
+                </div>
+            </div>
+            <!-- List Container -->
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#home" class="hover:text-pink-300">Home</a>
+                    <a href="#features" class="hover:text-pink-300">About</a>
+                    <a href="#shop" class="hover:text-pink-300">Shop</a>
+                    <a href="#testimonials" class="hover:text-pink-300">Reviews</a>
+                    <a href="#contact" class="hover:text-pink-300">Contact Us</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-pink-300">Careers</a>
+                    <a href="#" class="hover:text-pink-300">Community</a>
+                    <a href="#" class="hover:text-pink-300">Privacy Policy</a>
+                </div>
+            </div>
+
+            <!-- Input Container -->
+            <div class="flex flex-col justify-between">
+                <form>
+                    <div class="flex space-x-3">
+                        <input type="text" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Search">
+                        <button class="px-6 py-2 text-white rounded-full bg-rose-300 hover:bg-pink-200 focus:outline-none">
+                            Go
+                        </button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block">
+                    Copyright © 2022 T-Strawbs. All rights reserved.
+                </div>
+            </div>
+        
+    </div>
+   </footer>
+
+   <script src="js/script.js"></script>
+ </body>
+</html>
