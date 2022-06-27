@@ -66,6 +66,7 @@
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
+        overflow: auto;
  }
 
 .swiper-slide img {
@@ -73,4 +74,9 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
