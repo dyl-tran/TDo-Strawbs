@@ -25,6 +25,7 @@ TDo's Strawbs is a a commercial custom strawberry business using a responsive, m
      * Coding the front-end HTML5 structure and TailwindCSS styling, looking at other custom strawberry websites as inspiration
      * Importing TailwindCSS into the project through NPM, reading the documentation to fully utilize TailwindCSS library features
      * Importing SwiperJS into the project through NPM, using the documentation to create a modern and responsive carousel feature for users to browse through different custom strawberries
+     * Using JavaScript to create a functional hamburger menu for mobile users
      * Code review and resolving code conflicts on GitHub 
 
 ## Live Site
