@@ -1,99 +1,31 @@
-# TDo's Strawbs
+# 🍓 TDo's Strawbs
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Screenshot](#screenshot)
-- [Built with](#-built-with)
-- [Install](#install) (How it works)
-- [Development mode](#development-mode)
-- [Production  mode](#production-mode)
-- [The Project Structure](#the-project-structure)
-- [Author](#author)
-
-## Overview
-
-This website was created to model that of a custom strawberry business. The purpose of this challenge is to improve my coding skills by building realistic projects.
+TDo's Strawbs is a a commercial custom strawberry business using a responsive, modern front-end landing web page using TailwindCSS.
+> * Maintained by: `Dylan Tran`
 
 ## Screenshot
 
-![Suite landing page](https://github.com/Bayoumi-dev/Suite-landing-page/blob/master/src/assets/suite-preview.jpg)
+![TDo's Strawbs landing page](https://github.com/Dylan-N-Tran/TDo-Strawbs/blob/main/images/website.png)
 
 
-## ⚙ Built with
-#### Languages & Dependencies
-- HTML5
-- CSS3
-- TailwindCSS
-- JavaScript
+### Technology Overview
 
-## Install
+* Used TailwindCSS to style and design the website with a focus of mobile responsiveness
+* Used HTML5 for page content and structure
+* Used GitHub and Git to store code in the cloud, and VSCode to write code
+* Used NodeJS and NPM to install TailwindCSS as a CSS framework and SwiperJS to use a carousel feature
 
-### How it works
-Clone the project or download ZIP
-```bash
-git clone https://github.com/Bayoumi-dev/Suite-landing-page.git
-```
-You must install `Node js` on the local machine, then install the [`dependencies`](package.json) used in this project. Run the command in the root
-```bash
-npm install
-```
-## Development mode
-Start webpack dev server with:
-```bash
-npm run dev
-```
-The webpack dev server listening on `port: 3000`
+### Devices
+* The app can be properly viewed on the desktop, iPad in landscape mode, and on mobile phones.
 
-## Production mode
-Run the following command to generate the `dist` folder
- ```bash
-npm run dev
-```
-## The Project Structure
-```bash
-├── .browserslistrc
-├── babel.config.json
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── README.md
-├── webpack.dev.js
-├── webpack.prod.js
-└── src     
-    ├── assets
-    ├── js
-    │   └── app.js
-    ├── style
-    │   ├── abstracts
-    │   │   ├── breakpoints.scss
-    │   │   ├── colors.var.scss
-    │   │   ├── fonts.var.scss
-    │   │   ├── functions.scss
-    │   │   ├── index.scss
-    │   │   └── mixins.scss
-    │   ├── base 
-    │   │   ├── index.scss
-    │   │   ├── reset.scss
-    │   │   └── typography.scss
-    │   ├── components
-    │   │   ├── buttons.scss
-    │   │   └── index.scss
-    │   ├── layout
-    │   │   ├── animations.scss
-    │   │   ├── container.scss
-    │   │   ├── footer.scss
-    │   │   ├── global.scss
-    │   │   ├── header.scss
-    │   │   └── index.scss
-    │   ├── pages
-    │   │   └── index.scss
-    │   └── index.scss
-    ├── views
-    │   ├── favicon.ico
-    │   └── index.html
-    └── index.js
-```
+## Lessons Learned
+  1. Creating a modern and responsive user interface with TailwindCSS, HTML5, and CSS3
+  2. Experienced the development process by:
+     * Prototyping and wireframing the visual design through Figma and Canva
+     * Coding the front-end HTML5 structure and TailwindCSS styling, looking at other custom strawberry websites as inspiration
+     * Importing TailwindCSS into the project through NPM, reading the documentation to fully utilize TailwindCSS library features
+     * Importing SwiperJS into the project through NPM, using the documentation to create a modern and responsive carousel feature for users to browse through different custom strawberries
+     * Code review and resolving code conflicts on GitHub 
 
-## Author
-- Dylan Tran
+## Live Site
+* The live version of the app can be viewed [here](dylan-n-tran.github.io/tdo-strawbs/).
