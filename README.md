@@ -1,6 +1,6 @@
 # 🍓 TDo's Strawbs
 
-TDo's Strawbs is a a commercial custom strawberry business using a responsive, modern front-end landing web page using TailwindCSS.
+TDo's Strawbs is a a commercial custom strawberry business using a responsive, modern front-end landing web page with TailwindCSS.
 > * Maintained by: `Dylan Tran`
 
 ## Screenshot
