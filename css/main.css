@@ -691,10 +691,6 @@ video {
   flex-direction: column-reverse;
 }
 
-.flex-wrap{
-  flex-wrap: wrap;
-}
-
 .items-center{
   align-items: center;
 }
@@ -1026,7 +1022,7 @@ video {
      object-fit: cover;
 }
 
-body {
+html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
