@@ -1023,8 +1023,9 @@ video {
 }
 
 html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  height: auto !important;
 }
 
 .hover\:bg-pink-300:hover{
