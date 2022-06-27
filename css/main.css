@@ -691,6 +691,18 @@ video {
   flex-direction: column-reverse;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse{
+  flex-wrap: wrap-reverse;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
 .items-center{
   align-items: center;
 }
@@ -1006,10 +1018,19 @@ video {
 }
 
 .swiper-slide {
+  max-height: 100%;
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .hover\:bg-pink-300:hover{
@@ -1135,5 +1156,3 @@ video {
     line-height: 1.5;
   }
 }
-
-
