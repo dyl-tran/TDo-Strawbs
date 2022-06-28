@@ -33,3 +33,8 @@ TDo's Strawbs is a commercial custom strawberry business using a responsive, mod
 
 ## Attribution
 * <a href="https://www.flaticon.com/free-icons/strawberry" title="strawberry icons">Strawberry icons created by Freepik - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Freepik - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Dave Gandy - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/pinterest" title="pinterest icons">Pinterest icons created by Freepik - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>
