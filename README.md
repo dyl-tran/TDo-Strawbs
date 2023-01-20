@@ -29,7 +29,7 @@ TDo's Strawbs is a commercial custom strawberry business using a responsive, mod
      * Code review and resolving code conflicts on GitHub 
 
 ## Live Site
-* The live version of the app can be viewed [here](dylan-n-tran.github.io/tdo-strawbs/).
+* The live version of the app can be viewed [here](https://dyl-tran.github.io/TDo-Strawbs/).
 
 ## Attribution
 * <a href="https://www.flaticon.com/free-icons/strawberry" title="strawberry icons">Strawberry icons created by Freepik - Flaticon</a>
